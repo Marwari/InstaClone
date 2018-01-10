@@ -124,6 +124,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
-
+#We're not using cloudinary, we are using Imgur API here.
 #Cloudinary
 #cloudinary.config(cloud_name = "marwari",api_key = "227924972836747",api_secret = "Ga8GoQ4QjCOpFFQzsz6Np2TeBD4")
