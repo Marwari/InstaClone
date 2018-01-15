@@ -162,5 +162,5 @@ def LogoutView(request):
 def ProfileView(request):
     user = CheckValidation(request)
     if user:
-        return HttpResponse("Work in progress.")
+        return HttpResponse("Work in progress. Come back later.")
     return redirect("/login/")
